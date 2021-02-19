@@ -1,0 +1,13 @@
+{
+	"require": {},
+	"autoload" : {
+		"psr-4" : {
+			"App\\" : "classes/",
+			"Template\\": "vendor/template"
+		},
+		"files" : [
+			"vendor/template/functions.php"
+		]
+	}
+	
+}
